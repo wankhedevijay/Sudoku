@@ -1,0 +1,21 @@
+ oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+
+   .button {
+    background-color: black;
+    float: none;
+    border: 2;
+    color: rgb(30, 235, 218);
+    padding: 15px 110px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  button:hover {
+    background-color: rgb(56, 54, 54); /* Green */
+    color: rgb(235, 114, 114);
+  }
+  
